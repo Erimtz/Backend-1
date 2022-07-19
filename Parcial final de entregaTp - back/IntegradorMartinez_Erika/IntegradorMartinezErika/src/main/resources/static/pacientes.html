@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Pacientes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/update_pacientes.js"></script>
+    <script type="text/javascript" src="/js/delet_pacientes.js"></script>
+    <script type="text/javascript" src="/js/get_pacientes.js"></script>
+
+
+    <style>
+
+    .container-fluid bg-2{
+      padding-top: 70px;
+      padding-bottom: 70px;
+      background-color:#999999;
+      color: #000000;
+    }
+
+     .row col-md-6 {
+      font-size: 15px;
+      }
+
+      .row col-md-6  li a:hover {
+        color: #1abc9c !important;
+     }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <button><a class="nav-link" href="/pacientes.html">Agregar nuevo</a></button>
+        </li>
+        <li class="nav-item">
+            <button><a class="nav-link" href="/pacientes.html/">Todos</a></button>
+        </li>
+    </ul>
+
+    <div class="container-fluid bg-2 text-center">
+        <h1>Pacientes</h1>
+        <div class="row col-md-6 table-responsive">
+            <table id="pacienteTable" class="table table-striped">
+                <thead>
+                <tr>
+                    <th>update</th>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Dni</th>
+                    <th>delete</th>
+                </tr>
+                </thead>
+                <tbody id="pacienteTableBody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-sm-6" style="display: none;
+                                            background-color:#e6fffa; padding:10px; border-radius:3px"
+             id="div_paciente_updating">
+            <form id="update_paciente_form">
+                <div class="form-group">
+                    <label >Id:</label>
+                    <input type="text" class="form-control" id="paciente_id_update" readonly>
+                </div>
+                <div class="form-group">
+                    <label >Nombre:</label>
+                    <input type="text" class="form-control" placeholder="nombre" id="nombre-update">
+                </div>
+                <div class="form-group">
+                    <label >Apellido:</label>
+                    <input type="text" class="form-control" placeholder="apellido" id="apellido-update">
+                </div>
+                <div class="form-group">
+                    <label >Dni N°:</label>
+                    <input type="text" class="form-control" placeholder="dni" id="dni-update">
+                </div>
+
+
+                <button type="submit" class="btn btn-primary">Modificar</button>
+            </form>
+            <div id="response" style="display:none; margin:10px">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

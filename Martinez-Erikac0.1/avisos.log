@@ -1,0 +1,339 @@
+[2022-06-0221:43:34] [ INFO ] [OdontologoDaoH2:24] Guardando el odontólogos: com.company.model.Odontologo@27bc2616
+[2022-06-0221:43:35] [ INFO ] [OdontologoDaoH2:32] Conexión establecida
+[2022-06-0221:43:35] [ INFO ] [OdontologoDaoH2:37] Tabla de odontólogos creada
+[2022-06-0221:43:35] [ ERROR] [OdontologoDaoH2:54] Error en relación a la base de datos
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "ODONTÓLOGOS" no encontrada
+Table "ODONTÓLOGOS" not found; SQL statement:
+insert into odontólogos (id, numero_matricula, nombre, apellido) VALUES (?,?,?,?); [42102-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7146)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7117)
+	at org.h2.command.Parser.parseInsert(Parser.java:1682)
+	at org.h2.command.Parser.parsePrepared(Parser.java:891)
+	at org.h2.command.Parser.parse(Parser.java:788)
+	at org.h2.command.Parser.parse(Parser.java:760)
+	at org.h2.command.Parser.prepareCommand(Parser.java:683)
+	at org.h2.engine.Session.prepareLocal(Session.java:627)
+	at org.h2.engine.Session.prepareCommand(Session.java:565)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349)
+	at com.company.dao.OdontologoDaoH2.guardar(OdontologoDaoH2.java:40)
+	at com.company.dao.OdontologoDaoH2.guardar(OdontologoDaoH2.java:10)
+	at com.company.service.OdontologoService.guardarOdontologo(OdontologoService.java:25)
+	at com.company.Main.main(Main.java:15)
+[2022-06-0221:43:35] [ INFO ] [OdontologoDaoH2:62] Buscando los odontólogo
+[2022-06-0221:43:35] [ INFO ] [OdontologoDaoH2:70] Conexión establecida
+[2022-06-0221:43:35] [ INFO ] [OdontologoDaoH2:75] La sentencia SELECT ha sido ejecutada
+[2022-06-0221:45:29] [ INFO ] [OdontologoDaoH2:24] Guardando el odontólogos: com.company.model.Odontologo@27bc2616
+[2022-06-0221:45:30] [ INFO ] [OdontologoDaoH2:32] Conexión establecida
+[2022-06-0221:45:30] [ INFO ] [OdontologoDaoH2:37] Tabla de odontólogos creada
+[2022-06-0221:45:30] [ ERROR] [OdontologoDaoH2:54] Error en relación a la base de datos
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "ODONTÓLOGOS" no encontrada
+Table "ODONTÓLOGOS" not found; SQL statement:
+insert into odontólogos (id, numero_matricula, nombre, apellido) VALUES (?,?,?,?); [42102-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7146)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7117)
+	at org.h2.command.Parser.parseInsert(Parser.java:1682)
+	at org.h2.command.Parser.parsePrepared(Parser.java:891)
+	at org.h2.command.Parser.parse(Parser.java:788)
+	at org.h2.command.Parser.parse(Parser.java:760)
+	at org.h2.command.Parser.prepareCommand(Parser.java:683)
+	at org.h2.engine.Session.prepareLocal(Session.java:627)
+	at org.h2.engine.Session.prepareCommand(Session.java:565)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349)
+	at com.company.dao.OdontologoDaoH2.guardar(OdontologoDaoH2.java:40)
+	at com.company.dao.OdontologoDaoH2.guardar(OdontologoDaoH2.java:10)
+	at com.company.service.OdontologoService.guardarOdontologo(OdontologoService.java:25)
+	at com.company.Main.main(Main.java:15)
+[2022-06-0221:47:01] [ INFO ] [OdontologoDaoH2:24] Guardando el odontólogos: com.company.model.Odontologo@27bc2616
+[2022-06-0221:47:02] [ INFO ] [OdontologoDaoH2:32] Conexión establecida
+[2022-06-0221:47:02] [ INFO ] [OdontologoDaoH2:37] Tabla de odontólogos creada
+[2022-06-0221:47:02] [ ERROR] [OdontologoDaoH2:54] Error en relación a la base de datos
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "ODONTÓLOGOS" no encontrada
+Table "ODONTÓLOGOS" not found; SQL statement:
+insert into odontólogos (id, numero_matricula, nombre, apellido) VALUES (?,?,?,?); [42102-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7146)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7117)
+	at org.h2.command.Parser.parseInsert(Parser.java:1682)
+	at org.h2.command.Parser.parsePrepared(Parser.java:891)
+	at org.h2.command.Parser.parse(Parser.java:788)
+	at org.h2.command.Parser.parse(Parser.java:760)
+	at org.h2.command.Parser.prepareCommand(Parser.java:683)
+	at org.h2.engine.Session.prepareLocal(Session.java:627)
+	at org.h2.engine.Session.prepareCommand(Session.java:565)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349)
+	at com.company.dao.OdontologoDaoH2.guardar(OdontologoDaoH2.java:40)
+	at com.company.dao.OdontologoDaoH2.guardar(OdontologoDaoH2.java:10)
+	at com.company.service.OdontologoService.guardarOdontologo(OdontologoService.java:25)
+	at com.company.Main.main(Main.java:17)
+[2022-06-0222:21:16] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@27bc2616
+[2022-06-0222:21:16] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:21:16] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:21:16] [ ERROR] [OdontologoDaoH2:51] Error en relación a la base de datos
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "ESTUDIANTES" no encontrada
+Table "ESTUDIANTES" not found; SQL statement:
+INSERT INTO estudiantes (ID, NOMBRE, APELLIDO) VALUES (?,?,?) [42102-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7146)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7117)
+	at org.h2.command.Parser.parseInsert(Parser.java:1682)
+	at org.h2.command.Parser.parsePrepared(Parser.java:891)
+	at org.h2.command.Parser.parse(Parser.java:788)
+	at org.h2.command.Parser.parse(Parser.java:760)
+	at org.h2.command.Parser.prepareCommand(Parser.java:683)
+	at org.h2.engine.Session.prepareLocal(Session.java:627)
+	at org.h2.engine.Session.prepareCommand(Session.java:565)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349)
+	at com.company.dao.OdontologoDaoH2.guardar(OdontologoDaoH2.java:39)
+	at com.company.dao.OdontologoDaoH2.guardar(OdontologoDaoH2.java:10)
+	at com.company.service.OdontologoService.guardarOdontologo(OdontologoService.java:25)
+	at com.company.Main.main(Main.java:15)
+[2022-06-0222:24:32] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@27bc2616
+[2022-06-0222:24:32] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:24:32] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:24:32] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:39:28] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@512ddf17
+[2022-06-0222:39:28] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:39:28] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:39:28] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:39:29] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@5faeada1
+[2022-06-0222:39:29] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:39:29] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:39:29] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:39:29] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@34c4973
+[2022-06-0222:39:29] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:39:29] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:39:29] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:39:29] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:39:29] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:39:29] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:39:29] [ INFO ] [OdontologoDaoH2:88] Obtenido el medicamento: com.company.model.Odontologo@37d31475
+[2022-06-0222:39:30] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:39:30] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:39:30] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:39:30] [ INFO ] [OdontologoDaoH2:88] Obtenido el medicamento: com.company.model.Odontologo@58c1670b
+[2022-06-0222:43:17] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@60285225
+[2022-06-0222:43:18] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:43:18] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:43:18] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:43:22] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@2a54a73f
+[2022-06-0222:43:22] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:43:22] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:43:22] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:43:27] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:43:27] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:43:27] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:43:27] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@4738a206
+[2022-06-0222:45:56] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:45:56] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:45:56] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:46:08] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@f5acb9d
+[2022-06-0222:46:09] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:46:09] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:46:09] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:46:11] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@4f2b503c
+[2022-06-0222:46:25] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@60285225
+[2022-06-0222:46:26] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:46:26] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:46:26] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:46:27] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@2a54a73f
+[2022-06-0222:46:27] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:46:27] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:46:27] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:46:32] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:46:33] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:46:33] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:48:11] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@1af2d44a
+[2022-06-0222:48:38] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:48:38] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:48:38] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:49:04] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@4fb3ee4e
+[2022-06-0222:49:12] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:49:12] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:49:12] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:49:16] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@4f2b503c
+[2022-06-0222:51:29] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@506e1b77
+[2022-06-0222:51:29] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:51:29] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:51:29] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:51:30] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@3e6fa38a
+[2022-06-0222:51:30] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:51:30] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:51:30] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:51:30] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:51:30] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:51:30] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:51:30] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@464bee09
+[2022-06-0222:54:01] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@506e1b77
+[2022-06-0222:54:02] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:54:02] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:54:02] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:54:02] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@29774679
+[2022-06-0222:54:02] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:54:02] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:54:02] [ ERROR] [OdontologoDaoH2:51] Error en relación a la base de datos
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) [2, 456, 'Pepe', STRINGDECODE('P\u00e9rez')]"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.ODONTOLOGOS(ID) [2, 456, 'Pepe', STRINGDECODE('P\u00e9rez')]"; SQL statement:
+INSERT INTO odontologos (id, numero_matricula, nombre, apellido) VALUES (?,?,?,?) [23505-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:457)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:131)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:546)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:180)
+	at org.h2.command.dml.Insert.update(Insert.java:132)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:133)
+	at org.h2.command.Command.executeUpdate(Command.java:267)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:250)
+	at com.company.dao.OdontologoDaoH2.guardar(OdontologoDaoH2.java:46)
+	at com.company.dao.OdontologoDaoH2.guardar(OdontologoDaoH2.java:10)
+	at com.company.service.OdontologoService.guardarOdontologo(OdontologoService.java:25)
+	at com.company.Main.main(Main.java:17)
+[2022-06-0222:54:03] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:54:03] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:54:03] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:54:03] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@204f30ec
+[2022-06-0222:54:03] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@e25b2fe
+[2022-06-0222:56:09] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@506e1b77
+[2022-06-0222:56:09] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:56:09] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:56:09] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:56:10] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@29774679
+[2022-06-0222:56:10] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:56:10] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:56:10] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:56:10] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:56:10] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:56:10] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:56:10] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@343f4d3d
+[2022-06-0222:56:10] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@53b32d7
+[2022-06-0222:56:10] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@5442a311
+[2022-06-0222:56:10] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@548e7350
+[2022-06-0222:56:33] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@16f65612
+[2022-06-0222:56:33] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:56:33] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:56:33] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@2781e022
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:37] Tabla creada
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:47] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@467aecef
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@4d50efb8
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@7e2d773b
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@2173f6d9
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@307f6b8c
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@2353b3e6
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@3d921e20
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@36b4cef0
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@fad74ee
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@1a1d6a08
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@37d31475
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@27808f31
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:69] Buscando los odontólogos
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:74] Conexión establecida
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:79] La sentencia SELECT ha sido ejecutada
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@9a7504c
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@2c039ac6
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@587d1d39
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@58c1670b
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@6b57696f
+[2022-06-0222:56:34] [ INFO ] [OdontologoDaoH2:88] Obtenido el odontologo: com.company.model.Odontologo@5bb21b69
+[2022-06-0223:04:57] [ INFO ] [OdontologoDaoH2:111] conexion exitosa
+[2022-06-0223:04:57] [ INFO ] [OdontologoDaoH2:116] tabla creada
+[2022-06-0223:04:57] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@46d56d67
+[2022-06-0223:04:57] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0223:04:57] [ INFO ] [OdontologoDaoH2:43] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0223:04:57] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@29774679
+[2022-06-0223:04:57] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0223:04:57] [ INFO ] [OdontologoDaoH2:43] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0223:04:57] [ INFO ] [OdontologoDaoH2:65] Buscando los odontólogos
+[2022-06-0223:04:57] [ INFO ] [OdontologoDaoH2:70] Conexión establecida
+[2022-06-0223:04:57] [ INFO ] [OdontologoDaoH2:75] La sentencia SELECT ha sido ejecutada
+[2022-06-0223:04:57] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@4883b407
+[2022-06-0223:04:57] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@7d9d1a19
+[2022-06-0223:05:19] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@16f65612
+[2022-06-0223:05:20] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0223:05:20] [ INFO ] [OdontologoDaoH2:43] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0223:05:20] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@2781e022
+[2022-06-0223:05:20] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0223:05:20] [ INFO ] [OdontologoDaoH2:43] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0223:05:20] [ INFO ] [OdontologoDaoH2:65] Buscando los odontólogos
+[2022-06-0223:05:20] [ INFO ] [OdontologoDaoH2:70] Conexión establecida
+[2022-06-0223:05:20] [ INFO ] [OdontologoDaoH2:75] La sentencia SELECT ha sido ejecutada
+[2022-06-0223:05:20] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@467aecef
+[2022-06-0223:05:20] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@4d50efb8
+[2022-06-0223:05:20] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@7e2d773b
+[2022-06-0223:05:20] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@2173f6d9
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:65] Buscando los odontólogos
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:70] Conexión establecida
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:75] La sentencia SELECT ha sido ejecutada
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@c46bcd4
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@3234e239
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@3d921e20
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@36b4cef0
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:65] Buscando los odontólogos
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:70] Conexión establecida
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:75] La sentencia SELECT ha sido ejecutada
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@436e852b
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@32d2fa64
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@1d8d30f7
+[2022-06-0223:05:21] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@3e57cd70
+[2022-06-0223:06:14] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@16f65612
+[2022-06-0223:06:14] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0223:06:14] [ INFO ] [OdontologoDaoH2:43] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0223:08:06] [ INFO ] [OdontologoDaoH2:111] conexion exitosa
+[2022-06-0223:08:06] [ INFO ] [OdontologoDaoH2:116] tabla creada
+[2022-06-0223:08:06] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@1f57539
+[2022-06-0223:08:06] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0223:08:06] [ INFO ] [OdontologoDaoH2:43] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0223:08:06] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@57e1b0c
+[2022-06-0223:08:06] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0223:08:06] [ INFO ] [OdontologoDaoH2:43] Insertando un nuevo registro en la Tabla de odontólogos
+[2022-06-0223:08:06] [ INFO ] [OdontologoDaoH2:65] Buscando los odontólogos
+[2022-06-0223:08:06] [ INFO ] [OdontologoDaoH2:70] Conexión establecida
+[2022-06-0223:08:07] [ INFO ] [OdontologoDaoH2:75] La sentencia SELECT ha sido ejecutada
+[2022-06-0223:08:07] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@2a556333
+[2022-06-0223:08:07] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@7d70d1b1
+[2022-06-0223:08:07] [ INFO ] [OdontologoDaoH2:65] Buscando los odontólogos
+[2022-06-0223:08:07] [ INFO ] [OdontologoDaoH2:70] Conexión establecida
+[2022-06-0223:08:07] [ INFO ] [OdontologoDaoH2:75] La sentencia SELECT ha sido ejecutada
+[2022-06-0223:08:07] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@7e2d773b
+[2022-06-0223:08:07] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@2173f6d9
+[2022-06-0223:08:07] [ INFO ] [OdontologoDaoH2:65] Buscando los odontólogos
+[2022-06-0223:08:07] [ INFO ] [OdontologoDaoH2:70] Conexión establecida
+[2022-06-0223:08:07] [ INFO ] [OdontologoDaoH2:75] La sentencia SELECT ha sido ejecutada
+[2022-06-0223:08:07] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@7a187f14
+[2022-06-0223:08:07] [ INFO ] [OdontologoDaoH2:84] Obtenido el odontologo: com.company.model.Odontologo@6f195bc3
+[2022-06-0223:08:16] [ INFO ] [OdontologoDaoH2:111] conexion exitosa
+[2022-06-0223:08:16] [ INFO ] [OdontologoDaoH2:116] tabla creada
+[2022-06-0223:08:16] [ INFO ] [OdontologoDaoH2:25] Guardando el odontólogos: com.company.model.Odontologo@1f57539
+[2022-06-0223:08:16] [ INFO ] [OdontologoDaoH2:33] Conexión establecida
+[2022-06-0223:08:16] [ INFO ] [OdontologoDaoH2:43] Insertando un nuevo registro en la Tabla de odontólogos

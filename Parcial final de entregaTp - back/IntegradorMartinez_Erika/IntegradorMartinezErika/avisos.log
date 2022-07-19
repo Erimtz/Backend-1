@@ -1,0 +1,77 @@
+[2022-07-0819:16:59] [ INFO ] [PacienteService:52] Agregando y buscando un nuevo paciente
+[2022-07-0819:16:59] [ INFO ] [PacienteService:42] Cargando data de paciente
+[2022-07-0819:16:59] [ ERROR] [PacienteService:62] eliminando un paciente
+[2022-07-0819:16:59] [ INFO ] [PacienteService:73] Mostrando la lista de pacientes
+[2022-07-0819:16:59] [ INFO ] [OdontologoService:36] Actualizando un nuevo odontologo
+[2022-07-0819:16:59] [ INFO ] [OdontologoService:46] Agregando y buscando un nuevo odontologo
+[2022-07-0819:16:59] [ ERROR] [OdontologoService:55] eliminando un odontologo
+[2022-07-0819:16:59] [ INFO ] [OdontologoService:65] Mostrando la lista de odontologos
+[2022-07-0819:17:03] [ INFO ] [TurnoService:91] Actualizando un nuevo turno
+[2022-07-0819:17:03] [ INFO ] [TurnoService:61] Buscando turno por id: 
+[2022-07-0819:17:03] [ ERROR] [TurnoService:77] eliminando un turno
+[2022-07-0819:17:03] [ INFO ] [TurnoService:49] Guardando turno
+[2022-07-0819:17:03] [ INFO ] [TurnoService:110] Mostrando la lista de turnos
+[2022-07-1119:37:22] [ INFO ] [PacienteService:49] Agregando y buscando un nuevo paciente
+[2022-07-1119:37:22] [ INFO ] [PacienteService:39] Cargando data de paciente
+[2022-07-1119:37:22] [ ERROR] [PacienteService:59] eliminando un paciente
+[2022-07-1119:37:22] [ INFO ] [PacienteService:70] Mostrando la lista de pacientes
+[2022-07-1119:37:22] [ INFO ] [OdontologoService:35] Actualizando un nuevo odontologo
+[2022-07-1119:37:22] [ INFO ] [OdontologoService:45] Agregando y buscando un nuevo odontologo
+[2022-07-1119:37:22] [ ERROR] [OdontologoService:54] eliminando un odontologo
+[2022-07-1119:37:22] [ INFO ] [OdontologoService:64] Mostrando la lista de odontologos
+[2022-07-1119:37:25] [ INFO ] [TurnoService:90] Actualizando un nuevo turno
+[2022-07-1119:37:26] [ INFO ] [TurnoService:60] Buscando turno por id: 
+[2022-07-1119:37:26] [ ERROR] [TurnoService:76] eliminando un turno
+[2022-07-1119:37:26] [ INFO ] [TurnoService:48] Guardando turno
+[2022-07-1119:37:26] [ INFO ] [TurnoService:109] Mostrando la lista de turnos
+[2022-07-1119:38:02] [ INFO ] [PacienteService:49] Agregando y buscando un nuevo paciente
+[2022-07-1119:38:02] [ INFO ] [PacienteService:39] Cargando data de paciente
+[2022-07-1119:38:02] [ ERROR] [PacienteService:59] eliminando un paciente
+[2022-07-1119:38:02] [ INFO ] [PacienteService:70] Mostrando la lista de pacientes
+[2022-07-1119:38:02] [ INFO ] [OdontologoService:35] Actualizando un nuevo odontologo
+[2022-07-1119:38:02] [ INFO ] [OdontologoService:45] Agregando y buscando un nuevo odontologo
+[2022-07-1119:38:02] [ ERROR] [OdontologoService:54] eliminando un odontologo
+[2022-07-1119:38:02] [ INFO ] [OdontologoService:64] Mostrando la lista de odontologos
+[2022-07-1119:38:05] [ INFO ] [TurnoService:90] Actualizando un nuevo turno
+[2022-07-1119:38:05] [ INFO ] [TurnoService:60] Buscando turno por id: 
+[2022-07-1119:38:05] [ ERROR] [TurnoService:76] eliminando un turno
+[2022-07-1119:38:05] [ INFO ] [TurnoService:48] Guardando turno
+[2022-07-1119:38:05] [ INFO ] [TurnoService:109] Mostrando la lista de turnos
+[2022-07-1119:57:46] [ INFO ] [PacienteService:49] Agregando y buscando un nuevo paciente
+[2022-07-1119:57:46] [ INFO ] [PacienteService:39] Cargando data de paciente
+[2022-07-1119:57:46] [ ERROR] [PacienteService:59] eliminando un paciente
+[2022-07-1119:57:46] [ INFO ] [PacienteService:70] Mostrando la lista de pacientes
+[2022-07-1119:57:46] [ INFO ] [OdontologoService:35] Actualizando un nuevo odontologo
+[2022-07-1119:57:46] [ INFO ] [OdontologoService:45] Agregando y buscando un nuevo odontologo
+[2022-07-1119:57:46] [ ERROR] [OdontologoService:54] eliminando un odontologo
+[2022-07-1119:57:46] [ INFO ] [OdontologoService:64] Mostrando la lista de odontologos
+[2022-07-1119:57:49] [ INFO ] [TurnoService:90] Actualizando un nuevo turno
+[2022-07-1119:57:49] [ INFO ] [TurnoService:60] Buscando turno por id: 
+[2022-07-1119:57:49] [ ERROR] [TurnoService:76] eliminando un turno
+[2022-07-1119:57:49] [ INFO ] [TurnoService:48] Guardando turno
+[2022-07-1119:57:49] [ INFO ] [TurnoService:109] Mostrando la lista de turnos
+[2022-07-1120:28:23] [ INFO ] [PacienteService:49] Agregando y buscando un nuevo paciente
+[2022-07-1120:28:23] [ INFO ] [PacienteService:39] Cargando data de paciente
+[2022-07-1120:28:23] [ ERROR] [PacienteService:59] eliminando un paciente
+[2022-07-1120:28:23] [ INFO ] [PacienteService:70] Mostrando la lista de pacientes
+[2022-07-1120:30:18] [ INFO ] [PacienteService:49] Agregando y buscando un nuevo paciente
+[2022-07-1120:30:18] [ INFO ] [PacienteService:39] Cargando data de paciente
+[2022-07-1120:30:18] [ ERROR] [PacienteService:59] eliminando un paciente
+[2022-07-1120:30:18] [ INFO ] [PacienteService:70] Mostrando la lista de pacientes
+[2022-07-1120:42:30] [ INFO ] [OdontologoService:39] Actualizando un nuevo odontologo
+[2022-07-1120:42:30] [ INFO ] [OdontologoService:49] Agregando y buscando un nuevo odontologo
+[2022-07-1120:42:30] [ ERROR] [OdontologoService:58] eliminando un odontologo
+[2022-07-1120:42:30] [ INFO ] [OdontologoService:68] Mostrando la lista de odontologos
+[2022-07-1120:43:09] [ INFO ] [PacienteService:49] Agregando y buscando un nuevo paciente
+[2022-07-1120:43:09] [ INFO ] [PacienteService:39] Cargando data de paciente
+[2022-07-1120:43:09] [ ERROR] [PacienteService:59] eliminando un paciente
+[2022-07-1120:43:09] [ INFO ] [PacienteService:70] Mostrando la lista de pacientes
+[2022-07-1120:43:09] [ INFO ] [OdontologoService:39] Actualizando un nuevo odontologo
+[2022-07-1120:43:10] [ INFO ] [OdontologoService:49] Agregando y buscando un nuevo odontologo
+[2022-07-1120:43:10] [ ERROR] [OdontologoService:58] eliminando un odontologo
+[2022-07-1120:43:10] [ INFO ] [OdontologoService:68] Mostrando la lista de odontologos
+[2022-07-1120:43:14] [ INFO ] [TurnoService:90] Actualizando un nuevo turno
+[2022-07-1120:43:14] [ INFO ] [TurnoService:60] Buscando turno por id: 
+[2022-07-1120:43:14] [ ERROR] [TurnoService:76] eliminando un turno
+[2022-07-1120:43:14] [ INFO ] [TurnoService:48] Guardando turno
+[2022-07-1120:43:14] [ INFO ] [TurnoService:109] Mostrando la lista de turnos
